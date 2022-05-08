@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme The Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="js/addons/maps/world/asia_mill.js"></script>
+
+
+ 
+ <style>
+    .banner-image{
+        background-size: cover;
+        background-image: url("banner.jpeg");
+
+    }
+
+    .carousel-caption {
+    color: #fff !important; 
+    }
+
+    .carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    }
+
+    .nav-item {
+     padding-left: 50px;
+     padding-top: 0px;
+    }
+
+   @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+     }
+    }  
+
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+
+.bi {
+  color: white;
+
+  }
+  
+
+footer {
+    display: block;
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background-color: #F8DBD7 ;
+    padding: 150px 25px 50px 25px;
+    
+  }
+
+.footer-start {
+    display: flex;
+    position: relative;
+    width: 75%;
+    margin: auto;
+    padding: 35px 80px ;
+    height: 170px;
+    background: #FC2B0A; 
+}
+
+.start-learning {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -90px;
+    
+}
+.container-fluid {
+    padding: 60px 100px;
+  }
+
+
+</style>
+
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+        <a href="#" class="navbar-brand display-1">Delta 
+          Sports </a>
+
+        <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-target="#navbarNav"
+        data-bs-toggle="collapse"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle Navbar">
+      
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white h3">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white h3">Contact Us</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<!--Banner Image-->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  
+   <!-- Indicators -->
+   <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+    <!-- Wrapper for slides -->
+
+
+     <div class="carousel-inner" role="listbox">
+             
+      <div class="item active">
+        <div class="carousel-caption">
+          </div> 
+            <div img src="C:\Users\user\Pictures\Screenshots\banner.jpeg" class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+               <div class="content text-center">
+               </div>
+            </div>
+          </div>
+
+      <div class="item">
+        <div img src="C:\Users\user\Pictures\Screenshots\banner.jpeg" class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+          <div class="content text-center">
+          </div>
+        </div>     
+      </div>
+    
+      <div class="item">
+        <div img src="C:\Users\user\Pictures\Screenshots\banner.jpeg" class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+          <div class="content text-center">
+          </div>
+        </div>     
+      </div>
+     </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<!--Program Brief-->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h1 style="font-size:60px; padding-bottom: 40px; padding-left: 80px">Program Brief</h1>
+      <br>
+      <h1 style="padding-left: 100px; font-size: 40px"><small>
+        The Neighborhood Clubs Program is designed to 
+        support achieving the goals of Vision 2030 by raising 
+        the level of weekly physical activity to 40% in KSA.</small>
+      <br>
+      <br>
+      <button class="btn btn-default btn-lg text-success" style="font-weight: bold; font-size: 16px">KNOW MORE</button>
+      </h1>
+    </div>
+  </div>
+</div>
+
+
+
+  <!--Registration banner-->
+  
+<div class=" mb-5">
+    <div class="d-flex align-items-stretch mt-5" style="height:330px; width: 100% ">
+          <div ><img src="ball.jpeg" class="img-fluid">
+          </div>
+
+        <div style="background-color: #F8DBD7; width: 45% ">
+          <h1 class="card-title mt-5" style="font-size: 40px; font-family: Noto Sans ; padding-top: 37px; padding-left: 30px; " >Register for our 
+      program</h1>
+          <p class="card-title mt-4" style="font-size: 20px ; padding : 0 0 35px 30px ">Go healtly and happy. A care that never quits.</p>
+
+          <form class="form-inline card-title mt-4">
+            <div class="input-group" style=" padding : 0 0 35px 30px">
+              <input type="email" class="form-control" size="35" placeholder="Your Email Address..." style="padding-left:20px; height: 50px; font-size: 20px;" >
+                <div class="input-group-btn ">
+                  <button type="button" class="btn btn-success" style="height: 50px; width: 50px">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="35px" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 20 16">
+                      <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                    </svg>
+                  </button>
+                </div>
+            </div>
+          </form>
+        </div>
+    </div>
+</div>
+
+<!--Map-->
+
+<div class="row">
+  <div class="col-sm-4" style="padding-left: 150px">
+      
+    <h1 class="h1" style="font-size: 45px; padding-top: 100px" >We're here
+    <br><small> Let's get in touch </small></h1>
+    
+
+  </div>
+
+  <div class="col-sm-6" style="padding-left: 200px">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14932232.046512844!2d36.03982961097538!3d23.975836665710272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15e7b33fe7952a41%3A0x5960504bc21ab69b!2sSaudi%20Arabia!5e0!3m2!1sen!2sin!4v1636384511635!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
+
+<!--Map-->
+
+
+
+
+
+<!-- Footer -->
+<div style="padding-top: 100px">
+   <footer class="page-footer font-small lighten-5 ">
+     
+      <div class="start-learning mt-5">
+      
+        <!--Orange container-->
+
+          <div class="footer-start text-white d-flex flex-row justify-content-between align-items-center">
+            <h1 class="align-self-center ">Connect with us</h1>
+            
+            <h3 >
+              <a href ="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-facebook mr-md-5 mr-3 fa-2x" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+              </a>
+
+              <a href ="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-instagram mr-md-5 mr-3 fa-2x" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg>
+              </a>
+
+              <a href ="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-twitter mr-md-5 mr-3 fa-2x" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+              </a>
+
+            </h3>
+          </div>
+        
+          <!--Orange container-->
+
+        
+      </div>
+
+        <!-- Copyright -->
+          <div class="footer-copyright text-center text-black py-3" style="font-size: 14px">© Copyright 2021. All right reserved.
+         
+          </div>
+        <!-- Copyright -->
+
+    </footer>
+</div>
+<!-- Footer -->
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script>
+$('#cn-map').vectorMap({
+  map: 'cn_mill',
+  backgroundColor: 'white',
+  regionStyle: {
+      initial: {
+          fill: 'red'
+      }
+  },
+  series: {
+    regions: [{
+      values: {
+        'CN-41': '#B68842',
+        'CN-44': '#482901',
+        'CN-53': '#E7B23C'
+      }
+    }]
+  }
+});
+
+</script>
+<script>
+  var nav = document.querySelector('nav');
+
+  window.addEventListener('scroll', function(){
+    if(window.pageYOffset > 100) {
+      nav.classList.add('bg-dark', 'shadow');
+    } else {
+      nav.classList.remove('bg-dark', 'shadow');
+    }
+  });
+</script>
+</body>
+</html>
